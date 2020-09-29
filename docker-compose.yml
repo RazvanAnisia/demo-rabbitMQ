@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  rabbitMQ:
+    image: rabbitmq:latest
+    container_name: rabbitMQ
+    ports:
+      - '5672:5672'
